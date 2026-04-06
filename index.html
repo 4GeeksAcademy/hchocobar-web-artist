@@ -3,9 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Alex Kim - Desarrollador Web | Portafolio Profesional</title>
+    <meta name="description" content="Portafolio profesional de Alex Kim, desarrollador web especializado en desarrollo web moderno, JavaScript, React y diseño responsivo. Descubre mis proyectos y experiencia.">
+    <meta name="keywords" content="desarrollador web, desarrollador web freelance, programación web, React, JavaScript, portafolio técnico">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- JSON-LD Structured Data para Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Alex Kim",
+      "jobTitle": "Desarrollador Web",
+      "url": "https://alexkim.dev",
+      "email": "alex@example.com",
+      "sameAs": [
+        "https://linkedin.com/in/alexkim",
+        "https://github.com/alexkim"
+      ]
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data para FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "@id": "pregunta-1",
+          "name": "¿Cuáles son tus principales tecnologías y lenguajes de programación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Me especializo en desarrollo web frontend y backend. Trabajo habitualmente con JavaScript, React, Node.js y bases de datos como MongoDB y PostgreSQL. También tengo experiencia con frameworks modernos como Next.js y herramientas de construcción como Webpack y Vite. Estoy siempre actualizándome con las últimas tendencias del desarrollo web."
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "pregunta-2",
+          "name": "¿Cuánta experiencia tienes en desarrollo web?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tengo más de 5 años de experiencia trabajando en proyectos web de diferentes escalas, desde sitios estáticos hasta aplicaciones web complejas. He colaborado con startups, empresas medianas y corporaciones, lo que me ha permitido desarrollar habilidades sólidas en comunicación, gestión de proyectos y resolución de problemas. Mis clientes valoran mi capacidad de entregar soluciones de alta calidad y mi compromiso con la excelencia."
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "pregunta-3",
+          "name": "¿Ofreces servicios de consultoría y asesoramiento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, ofrezco servicios de consultoría para equipos que buscan mejorar su arquitectura de software, optimizar el rendimiento de sus aplicaciones o implementar mejores prácticas de desarrollo. Puedo ayudarte a planificar tu estrategia tecnológica, revisar código y proporcionar recomendaciones basadas en mi experiencia."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <h1>Alex Kim</h1>
+        <p class="subtitle">Desarrollador Web Profesional | Innovación Digital</p>
+        
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Sobre mí -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Soy un desarrollador web apasionado por crear soluciones digitales innovadoras y de alta calidad. Con más de 5 años de experiencia en la industria, me especializo en desarrollo full-stack y arquitectura de aplicaciones web modernas.</p>
+            
+            <h3>Especialidades</h3>
+            <p>Trabajar con tecnologías de vanguardia como JavaScript, React, Node.js y bases de datos modernas. Me dedico a escribir código limpio, mantenible y optimizado que proporciona valor real a mis clientes.</p>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            
+            <h3>Aplicación de Gestión de Tareas</h3>
+            <p>Desarrollé una aplicación web completa con React, Node.js y MongoDB que permite a los usuarios gestionar sus proyectos de forma eficiente con características de colaboración en tiempo real.</p>
+            
+            <h3>Plataforma de E-commerce</h3>
+            <p>Implementé una solución de comercio electrónico escalable utilizando tecnologías modernas, incluyendo pasarela de pagos integrada y dashboard administrativo avanzado.</p>
+        </section>
+
+        <!-- Sección FAQ -->
+        <section id="faq">
+            <h2>Preguntas Frecuentes</h2>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">¿Cuáles son tus principales tecnologías y lenguajes de programación?</h3>
+                <p class="faq-answer">Me especializo en desarrollo web frontend y backend. Trabajo habitualmente con JavaScript, React, Node.js y bases de datos como MongoDB y PostgreSQL. También tengo experiencia con frameworks modernos como Next.js y herramientas de construcción como Webpack y Vite. Estoy siempre actualizándome con las últimas tendencias del desarrollo web.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">¿Cuánta experiencia tienes en desarrollo web?</h3>
+                <p class="faq-answer">Tengo más de 5 años de experiencia trabajando en proyectos web de diferentes escalas, desde sitios estáticos hasta aplicaciones web complejas. He colaborado con startups, empresas medianas y corporaciones, lo que me ha permitido desarrollar habilidades sólidas en comunicación, gestión de proyectos y resolución de problemas. Mis clientes valoran mi capacidad de entregar soluciones de alta calidad y mi compromiso con la excelencia.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3 class="faq-question">¿Ofreces servicios de consultoría y asesoramiento?</h3>
+                <p class="faq-answer">Sí, ofrezco servicios de consultoría para equipos que buscan mejorar su arquitectura de software, optimizar el rendimiento de sus aplicaciones o implementar mejores prácticas de desarrollo. Puedo ayudarte a planificar tu estrategia tecnológica, revisar código y proporcionar recomendaciones basadas en mi experiencia.</p>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes un proyecto en mente? Me encantaría hablar contigo sobre cómo puedo ayudarte a convertir tu idea en realidad.</p>
+            <p><strong>Email:</strong> alex@example.com</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/alexkim" target="_blank">linkedin.com/in/alexkim</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/alexkim" target="_blank">github.com/alexkim</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Alex Kim. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
